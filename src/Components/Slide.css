@@ -1,0 +1,54 @@
+.h1-title {
+  text-align: center;
+  /* margin-left: 30rem; */
+  align-items: center;
+  justify-content: center;
+  font-size: 30rem;
+  line-height: 108px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  font-weight: 900;
+}
+.review{
+    margin-top: 10rem;
+}
+.main-slide {
+   
+  width: 50rem;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.review {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.h1-title span {
+  color: #ff8243;
+  background-size: 100% 15px;
+  background-position: 0 90%;
+  background-repeat: no-repeat;
+  display: inline;
+  transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+}
+.text p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrow-right 
+{
+    margin-top: 7rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+.arrow-left{
+    margin-top: 7rem;
+    border: none;
+    border-radius: 2rem;
+}

@@ -1,0 +1,58 @@
+
+.services {
+  padding: 2rem;
+}
+.heading h2{
+  font-weight: 500;
+  color: rgb(20,38,83);
+}
+
+.box {
+    margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 6rem;
+  /* margin-left: 19rem; */
+}
+
+.inner-box {
+  height: 10rem;
+  width: 25rem;
+  background-color: #f0f0f0; /* Just for visualization, remove this */
+  display: flex;
+  border-radius: 1rem;
+  flex-direction: row;
+  align-items: center;
+}
+.inner-text {
+  display: flex;
+  flex-direction: column;
+}
+.inner-h1 p {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  text-align: center;
+}
+.inner-p {
+  margin-top: 0;
+  font-size: 15px;
+  
+}
+/* Optional: Adjust image size */
+.inner-box img {
+    margin-left: 5px;
+  width: 80px; /* Adjust as needed */
+  height: 60px; /* Maintain aspect ratio */
+}
+.button{
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-left: 50rem;
+}

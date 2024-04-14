@@ -1,0 +1,42 @@
+.left-foot {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    border-top: 1rem rgb(12, 12, 198);
+    border-radius: 1.5rem;
+    background-color: rgb(20,38,83);
+}
+.foot{
+    color: white;
+  
+    border-top: 1rem rgb(12, 12, 198);
+    border-radius: 1.5rem;
+    background-color: rgb(20,38,83);
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-icon{
+    font-size: 25px;
+    margin-right: 2rem;
+    background: none;
+
+}
+.foot-links{
+    margin-top: 1rem;
+}
+.foot-links li{
+    margin-top: 1rem;
+}
+.foot-terms{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.terms{
+    margin-right: 1rem;
+}

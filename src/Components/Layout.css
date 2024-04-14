@@ -1,0 +1,47 @@
+.providers {
+  height: 20rem;
+  width: 80%;
+  border-radius: 15px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background: white;
+  color: rgb(20,38,83);
+}
+.heading {
+  font-size: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.heading h1{
+  color: rgb(20,38,83);
+
+}
+.types {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-evenly;
+}
+button {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  width: 9rem;
+  height: 2.9rem;
+  color: white;
+  background-color: rgb(243, 130, 24);
+  border: none;
+  border-radius: 1.2rem;
+}
+select {
+    border-radius: 5px;
+   height: 2rem;
+   width: 10rem;
+   color: rgb(116, 116, 115);
+  }
+  
+
+ 
+  

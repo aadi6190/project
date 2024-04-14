@@ -1,0 +1,42 @@
+
+.h1-title {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px; /* Updated font size to 30px */
+    line-height: 108px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-weight: 900;
+  }
+
+
+
+.container-city {
+   
+    width: 100%;
+   margin-left: 6rem;
+    gap: 3rem;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row{
+    width: 100%;
+}
+
+.column {
+    width: calc(100% / 7); /* Set each column to take up 1/7th of the width */
+    margin-right: 2%; /* Add some spacing between columns */
+}
+.column li{
+    margin-top: 10px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+}

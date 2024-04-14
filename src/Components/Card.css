@@ -1,0 +1,47 @@
+.h1-title {
+  text-align: center;
+  /* margin-left: 30rem; */
+  align-items: center;
+  justify-content: center;
+  font-size: 30rem;
+  line-height: 108px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  font-weight: 900;
+}
+
+.h1-title span {
+  color: #ff8243;
+  background-size: 100% 15px;
+  background-position: 0 90%;
+  background-repeat: no-repeat;
+  display: inline;
+  transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+}
+.card-grp{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: none;
+   
+
+    
+}
+.card img{
+    height: 15rem;
+    width: 25rem;
+    border-radius: 0.5rem;
+    background-color: antiquewhite;
+}
+.card h2{
+    margin-top: 1rem;
+}
+.card-btn{
+   margin-left: 53rem;
+   margin-top: 2rem;
+}

@@ -1,0 +1,40 @@
+.main-video{
+    display: flex;
+    justify-content: space-between;
+   padding: 5rem;
+    background-color:#FFFCF3;
+}
+.video-section{
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    margin-right: 15rem;
+}
+
+
+.video-text{
+    margin-left: 15rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+   
+}
+.video-text p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.video-text h2{
+    margin-left: 0;
+margin-right: 2rem;
+font-weight: 700;
+
+}
+
+.btn button{
+    margin-top: 0;
+    
+    margin-right: 17rem;
+}
